@@ -117,6 +117,11 @@
         "description": "Generate pom.xml Maven build file instead of Gradle build",
         "default": false,
         "required": false
+      },
+      "generateTimestamp": {
+        "description": "Adds the generation timestamp to the @Generated annotation",
+        "default": "true",
+        "required": false
       }
     },
     "generator": ">=1.8.27",
